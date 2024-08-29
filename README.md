@@ -65,6 +65,10 @@ print(X_test.shape)
 from sklearn.linear_model import LinearRegression
 reg=LinearRegression()
 reg.fit(X_train,Y_train)
+```
+## Output:
+![Screenshot 2024-08-29 215254](https://github.com/user-attachments/assets/46c35dd1-e533-4e40-a5ba-e513f79a797a)
+```
 Y_pred=reg.predict(X_test)
 print(Y_pred)
 print(Y_test)
