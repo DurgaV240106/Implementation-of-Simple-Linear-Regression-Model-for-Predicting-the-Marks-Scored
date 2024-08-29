@@ -83,6 +83,10 @@ plt.title('Training set(H vs S)')
 plt.xlabel("Hours")
 plt.ylabel("Scores")
 plt.show()
+```
+## Output:
+![Screenshot 2024-08-29 215728](https://github.com/user-attachments/assets/f8abe9d8-74f9-4bec-86a0-7468a142f58c)
+```
 plt.scatter(X_test, Y_test,color="blue")
 plt.plot(X_test, reg.predict(X_test), color="silver")
 plt.title('Test set(H vs S)')
@@ -91,7 +95,7 @@ plt.ylabel("Scores")
 plt.show()
 ```
 ## Output:
-![Screenshot 2024-08-29 214806](https://github.com/user-attachments/assets/c81f5672-2ad5-4730-8519-225f8bb8e859)
+![Screenshot 2024-08-29 215808](https://github.com/user-attachments/assets/03f5fb9c-894b-4ae5-932c-9454e616c367)
 
 
 ## Result:
